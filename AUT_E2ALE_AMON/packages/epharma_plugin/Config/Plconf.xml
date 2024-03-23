@@ -1,0 +1,3125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PluginParameters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <NRLICENSE>46583</NRLICENSE>
+  <CPNJ>11896387000122</CPNJ>
+  <StatusActive>Active</StatusActive>
+  <UriBaseAdressWebApi>https://PosWebApi.epharma.com.br/</UriBaseAdressWebApi>
+  <LocalSaveImageDirectory>C:\e-PharmaPlugin\ScannerImagens</LocalSaveImageDirectory>
+  <DeviceScannerSelected />
+  <RadioSelectScannerMode>FileCopy</RadioSelectScannerMode>
+  <ResolutionScanner>0</ResolutionScanner>
+  <TokenOAuth>DqDg9QjP_f-VmNC1ZhNLh2KGyoYK5k5X3jg8VdJKm776ny95FvNPTqvWgV-56PKX28ci4n2-vUZ4_3DDAxYAOz_zUzNeJkx-w72R1VmWSfqDwUDCF9MNXLdv4qU4cffkRkvlaAvAY_caqdJZctr6XXV_jsvie8tGcRN4fl9YGVixjEgHzOotRfOHP3ImDDlqnvxYQv_2JzlmGxpYpQDvSRU_52GonA6QMVTulN3RvoxWT8v6</TokenOAuth>
+  <LocalSavePdvCommand>C:\e-PharmaPlugin\ENV</LocalSavePdvCommand>
+  <LocalSavePdvReturn>C:\e-PharmaPlugin\REC</LocalSavePdvReturn>
+  <RadioSelectConsultPriceMode>ImportFile</RadioSelectConsultPriceMode>
+  <LocalDllFileToConsultPrice />
+  <LocalImportFileToConsultPrice>C:\InovaFarma\EPharma\TabelaPrecoEPharma.txt</LocalImportFileToConsultPrice>
+  <GBASFile />
+  <TerminalIp>169.254.23.222</TerminalIp>
+  <ListConvenioLastUpdateDate>2023-12-11T09:01:52.9923353-03:00</ListConvenioLastUpdateDate>
+  <Convenios>
+    <Convenio>
+      <CodigoConvenio>2</CodigoConvenio>
+      <NomeConvenio>AABB SEGUROS</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7341</CodigoConvenio>
+      <NomeConvenio>A+ASSIST</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5332</CodigoConvenio>
+      <NomeConvenio>ABERTTA SAUDE - ARCELORMITTAL</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5342</CodigoConvenio>
+      <NomeConvenio>ACE DS CARD</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5244</CodigoConvenio>
+      <NomeConvenio>ACE ODONTO SYSTEM</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5369</CodigoConvenio>
+      <NomeConvenio>ACESSO + FACIL</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7304</CodigoConvenio>
+      <NomeConvenio>ACIAV CONVÊNIO</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8464</CodigoConvenio>
+      <NomeConvenio>ADP</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7629</CodigoConvenio>
+      <NomeConvenio>AERO BANK CARTAO I</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5</CodigoConvenio>
+      <NomeConvenio>AFCEEE RS</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8049</CodigoConvenio>
+      <NomeConvenio>AGIBANK RTB</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>6676</CodigoConvenio>
+      <NomeConvenio>AGILIZA SAUDE</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8440</CodigoConvenio>
+      <NomeConvenio>AIG</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>6691</CodigoConvenio>
+      <NomeConvenio>ALELO</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>6874</CodigoConvenio>
+      <NomeConvenio>ALELO VIV</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8384</CodigoConvenio>
+      <NomeConvenio>ALELOSICREDI</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7488</CodigoConvenio>
+      <NomeConvenio>ALFA SEGUROS</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8240</CodigoConvenio>
+      <NomeConvenio>ALL TECH</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5397</CodigoConvenio>
+      <NomeConvenio>ALO MAMAE</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8320</CodigoConvenio>
+      <NomeConvenio>ALPHA ASSEMBLY</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>6891</CodigoConvenio>
+      <NomeConvenio>AMERICAN</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>6407</CodigoConvenio>
+      <NomeConvenio>AMERICAN LIFE</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5492</CodigoConvenio>
+      <NomeConvenio>AMIL - SANTA HELENA</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5514</CodigoConvenio>
+      <NomeConvenio>AMIL IMPORTADOS</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>6685</CodigoConvenio>
+      <NomeConvenio>AMOR HORIZONTAL</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5444</CodigoConvenio>
+      <NomeConvenio>AMPARO ASSISTENCIA</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5445</CodigoConvenio>
+      <NomeConvenio>AMPARO DESCONTO</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7674</CodigoConvenio>
+      <NomeConvenio>ANDCARE</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8421</CodigoConvenio>
+      <NomeConvenio>ANGLO INTERNACIONAL BRASIL</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8465</CodigoConvenio>
+      <NomeConvenio>ARCELOR MITAL TOPMED</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7089</CodigoConvenio>
+      <NomeConvenio>ARCO VIDA</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8040</CodigoConvenio>
+      <NomeConvenio>ARMACOLLO</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5548</CodigoConvenio>
+      <NomeConvenio>ASSISTENCIA SAUDE 24 HORAS</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8466</CodigoConvenio>
+      <NomeConvenio>ATOS BRASIL</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>6373</CodigoConvenio>
+      <NomeConvenio>AVYDA</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7663</CodigoConvenio>
+      <NomeConvenio>AWD BANK CARTAO I</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7805</CodigoConvenio>
+      <NomeConvenio>AXA</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8533</CodigoConvenio>
+      <NomeConvenio>AXA SEGUROS</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5541</CodigoConvenio>
+      <NomeConvenio>BA - CENTRAL UNIMED</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8029</CodigoConvenio>
+      <NomeConvenio>BANCO C6</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5330</CodigoConvenio>
+      <NomeConvenio>BANCO DAYCOVAL-MELHOR IDADE</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5082</CodigoConvenio>
+      <NomeConvenio>BANCO DO BRASIL SEGUROS</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7395</CodigoConvenio>
+      <NomeConvenio>BANCO INTER</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7632</CodigoConvenio>
+      <NomeConvenio>BANKING PASS_CARTAO I</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5213</CodigoConvenio>
+      <NomeConvenio>BANRISUL/SAGA</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7746</CodigoConvenio>
+      <NomeConvenio>BASE SOCIAL</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>6739</CodigoConvenio>
+      <NomeConvenio>BB SEGUROS</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7809</CodigoConvenio>
+      <NomeConvenio>BBANK_CARTAO I</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8367</CodigoConvenio>
+      <NomeConvenio>BBB BANK L</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8368</CodigoConvenio>
+      <NomeConvenio>BBB BANK LL</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8429</CodigoConvenio>
+      <NomeConvenio>BBBENEFICIOS II</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>6896</CodigoConvenio>
+      <NomeConvenio>BBT SPORTS</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8511</CodigoConvenio>
+      <NomeConvenio>BBTS</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5571</CodigoConvenio>
+      <NomeConvenio>BEM EMERGENCIAS</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8544</CodigoConvenio>
+      <NomeConvenio>BEMCLUB</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>6883</CodigoConvenio>
+      <NomeConvenio>BENASSIST</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8386</CodigoConvenio>
+      <NomeConvenio>BENEFICIO MEDICAMENTO PROVIDA</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>88</CodigoConvenio>
+      <NomeConvenio>BENEFICIO TESTE</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8082</CodigoConvenio>
+      <NomeConvenio>BMG INSS RTB</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>6813</CodigoConvenio>
+      <NomeConvenio>BMG SEGURADORA</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8400</CodigoConvenio>
+      <NomeConvenio>BOM ABRACO </NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8467</CodigoConvenio>
+      <NomeConvenio>BP BUNGE</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5410</CodigoConvenio>
+      <NomeConvenio>BRASIL ATUARIAL</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8468</CodigoConvenio>
+      <NomeConvenio>BRASIL SEG</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5476</CodigoConvenio>
+      <NomeConvenio>BRASILCAP</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8469</CodigoConvenio>
+      <NomeConvenio>BRIDGESTONE</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7568</CodigoConvenio>
+      <NomeConvenio>BRM1 CARTAO I</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5098</CodigoConvenio>
+      <NomeConvenio>BULLLA</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7554</CodigoConvenio>
+      <NomeConvenio>BW EPHARMA</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>18</CodigoConvenio>
+      <NomeConvenio>CABURE SEGUROS</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5205</CodigoConvenio>
+      <NomeConvenio>CAEDU</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8052</CodigoConvenio>
+      <NomeConvenio>CAIXA</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5335</CodigoConvenio>
+      <NomeConvenio>CAPEMISA-BEM TOTAL</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5333</CodigoConvenio>
+      <NomeConvenio>CAPEMISA-DEMAIS</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5334</CodigoConvenio>
+      <NomeConvenio>CAPEMISA-LIFE</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5204</CodigoConvenio>
+      <NomeConvenio>CAPEMISA-NALIN</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>6430</CodigoConvenio>
+      <NomeConvenio>CAPITAL GLOBAL</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8162</CodigoConvenio>
+      <NomeConvenio>CAPTAR BANK I</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>6754</CodigoConvenio>
+      <NomeConvenio>CARD GLOBAL</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>6688</CodigoConvenio>
+      <NomeConvenio>CARDUMES</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7822</CodigoConvenio>
+      <NomeConvenio>CARTAO BULLLA</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8390</CodigoConvenio>
+      <NomeConvenio>CARTAO SUA SAUDE</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5426</CodigoConvenio>
+      <NomeConvenio>CASH</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8490</CodigoConvenio>
+      <NomeConvenio>CDL TOPMED</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8488</CodigoConvenio>
+      <NomeConvenio>CENTAURO - ON</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5419</CodigoConvenio>
+      <NomeConvenio>CENTAURO ON</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8549</CodigoConvenio>
+      <NomeConvenio>CENTRAL UNIMED</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5329</CodigoConvenio>
+      <NomeConvenio>CETELEM SEGURO TRANQUILIDADE</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>6356</CodigoConvenio>
+      <NomeConvenio>CHUBB</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7927</CodigoConvenio>
+      <NomeConvenio>CHUBB LIZE</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7931</CodigoConvenio>
+      <NomeConvenio>CHUBB LIZE IKE</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5538</CodigoConvenio>
+      <NomeConvenio>CHUBB-BEVICRED</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5537</CodigoConvenio>
+      <NomeConvenio>CHUBB-ELETROZEMA</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5535</CodigoConvenio>
+      <NomeConvenio>CHUBB-LOJAS TENDA</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5539</CodigoConvenio>
+      <NomeConvenio>CHUBB-REDE TOTAL</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5536</CodigoConvenio>
+      <NomeConvenio>CHUBB-ZEMA BOLSO</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>6641</CodigoConvenio>
+      <NomeConvenio>CICLIC</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8428</CodigoConvenio>
+      <NomeConvenio>CITYVIBECLUB II</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5429</CodigoConvenio>
+      <NomeConvenio>CLUB SAUDE</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>6670</CodigoConvenio>
+      <NomeConvenio>CLUBE AYYA</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7744</CodigoConvenio>
+      <NomeConvenio>CLUBE CICLIC</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8560</CodigoConvenio>
+      <NomeConvenio>CLUBE MERCOSUL</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8337</CodigoConvenio>
+      <NomeConvenio>CMBUNKER II</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5297</CodigoConvenio>
+      <NomeConvenio>COLGATE MAIS SAUDE BUCAL</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8407</CodigoConvenio>
+      <NomeConvenio>COMPENSA GESTAO DE ATIVOS</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8512</CodigoConvenio>
+      <NomeConvenio>COMPROCARD TELEMED</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8394</CodigoConvenio>
+      <NomeConvenio>CONECTADOC</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5105</CodigoConvenio>
+      <NomeConvenio>CONSUL</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8470</CodigoConvenio>
+      <NomeConvenio>CPFL</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8412</CodigoConvenio>
+      <NomeConvenio>CREDIFOZ</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5589</CodigoConvenio>
+      <NomeConvenio>CREDSYSTEM</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8272</CodigoConvenio>
+      <NomeConvenio>CTDI BRASIL</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8408</CodigoConvenio>
+      <NomeConvenio>CUIDADO FAMILIAR</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5331</CodigoConvenio>
+      <NomeConvenio>DACASA FINANCEIRA VOCE PROTEGIDO</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8471</CodigoConvenio>
+      <NomeConvenio>DAIICHI SANKYO</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8017</CodigoConvenio>
+      <NomeConvenio>DAYCOVAL RTB</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7319</CodigoConvenio>
+      <NomeConvenio>DESCONTO FARMACIA ZURICH</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5593</CodigoConvenio>
+      <NomeConvenio>DI SANTINNI SAUDE</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>6886</CodigoConvenio>
+      <NomeConvenio>DR. CONECTA</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8393</CodigoConvenio>
+      <NomeConvenio>DR PLAN</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7529</CodigoConvenio>
+      <NomeConvenio>DR. ZAP</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8472</CodigoConvenio>
+      <NomeConvenio>DSM TOPMED</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7634</CodigoConvenio>
+      <NomeConvenio>DTF BANK CARTAO I</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8489</CodigoConvenio>
+      <NomeConvenio>DUO24H VIP</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7938</CodigoConvenio>
+      <NomeConvenio>D24H</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>6892</CodigoConvenio>
+      <NomeConvenio>ECONOMAIS</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>6741</CodigoConvenio>
+      <NomeConvenio>EMEDICVISA</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7424</CodigoConvenio>
+      <NomeConvenio>ENEL X</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8396</CodigoConvenio>
+      <NomeConvenio>ENGENHARIA DO CORPO</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8382</CodigoConvenio>
+      <NomeConvenio>EP ENGENHARIA</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>28</CodigoConvenio>
+      <NomeConvenio>EPHARMA</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5073</CodigoConvenio>
+      <NomeConvenio>EPHARMA / SYNGENTA</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8044</CodigoConvenio>
+      <NomeConvenio>EPHARMA - TELE VIDA</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8500</CodigoConvenio>
+      <NomeConvenio>EPHARMA BLUE HEALTH</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5317</CodigoConvenio>
+      <NomeConvenio>EPHARMA PLENUS</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8497</CodigoConvenio>
+      <NomeConvenio>EQUATORIAL</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8473</CodigoConvenio>
+      <NomeConvenio>ESPACOLASER</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7195</CodigoConvenio>
+      <NomeConvenio>ESPOSENDE</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8288</CodigoConvenio>
+      <NomeConvenio>EVO</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8474</CodigoConvenio>
+      <NomeConvenio>EVONIK</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>6016</CodigoConvenio>
+      <NomeConvenio>EXTRAMED</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>6699</CodigoConvenio>
+      <NomeConvenio>EZZE SEGUROS</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8299</CodigoConvenio>
+      <NomeConvenio>FABIANTEX</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5400</CodigoConvenio>
+      <NomeConvenio>FACIL ASSIST</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5404</CodigoConvenio>
+      <NomeConvenio>FACIL ASSIST-QBE</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5359</CodigoConvenio>
+      <NomeConvenio>FACTA COBRAN</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7914</CodigoConvenio>
+      <NomeConvenio>FAIRFAX CATTAN</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5545</CodigoConvenio>
+      <NomeConvenio>FAMILIA PROTEGIDA</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7830</CodigoConvenio>
+      <NomeConvenio>FAMILIA SAUDE 24H</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8362</CodigoConvenio>
+      <NomeConvenio>FAZBEM</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8475</CodigoConvenio>
+      <NomeConvenio>FIDELITY</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8128</CodigoConvenio>
+      <NomeConvenio>FIIBO</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8402</CodigoConvenio>
+      <NomeConvenio>FILÓO</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8486</CodigoConvenio>
+      <NomeConvenio>FLEXTRONIC</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8133</CodigoConvenio>
+      <NomeConvenio>FONTES CORRETORA</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8237</CodigoConvenio>
+      <NomeConvenio>FORMAT</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8147</CodigoConvenio>
+      <NomeConvenio>FUTURO PREVIDENCIA</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5290</CodigoConvenio>
+      <NomeConvenio>GAMA</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7254</CodigoConvenio>
+      <NomeConvenio>GASTON</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5566</CodigoConvenio>
+      <NomeConvenio>GENERALI</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5565</CodigoConvenio>
+      <NomeConvenio>GENERALI BMG</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8053</CodigoConvenio>
+      <NomeConvenio>GENERALI BMG CARTAO INSS</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8348</CodigoConvenio>
+      <NomeConvenio>GOOD CARD</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8485</CodigoConvenio>
+      <NomeConvenio>GREENCARD</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7860</CodigoConvenio>
+      <NomeConvenio>GRUPO CONECT</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8322</CodigoConvenio>
+      <NomeConvenio>GRUPO TELEMED EPHARMA</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5463</CodigoConvenio>
+      <NomeConvenio>HCOR</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7684</CodigoConvenio>
+      <NomeConvenio>HEALTH LIVING</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7036</CodigoConvenio>
+      <NomeConvenio>HELLOMED</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>6418</CodigoConvenio>
+      <NomeConvenio>HELP CARD</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8263</CodigoConvenio>
+      <NomeConvenio>HELPPI.ME</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8547</CodigoConvenio>
+      <NomeConvenio>HELPS</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7640</CodigoConvenio>
+      <NomeConvenio>HORIZONTES</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5564</CodigoConvenio>
+      <NomeConvenio>ICATU SEGUROS</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5491</CodigoConvenio>
+      <NomeConvenio>IDEAL ODONTO</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7170</CodigoConvenio>
+      <NomeConvenio>IGS</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7420</CodigoConvenio>
+      <NomeConvenio>IKE PREVISUL DESCONTOS EM MEDICAMENTOS</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8487</CodigoConvenio>
+      <NomeConvenio>INTERMED TOPMED</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7630</CodigoConvenio>
+      <NomeConvenio>INVERBANK_CARTAO I</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7767</CodigoConvenio>
+      <NomeConvenio>IPE BANK CARTAO I</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8503</CodigoConvenio>
+      <NomeConvenio>ITALIFE SAUDE</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5448</CodigoConvenio>
+      <NomeConvenio>ITAU</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8209</CodigoConvenio>
+      <NomeConvenio>I9MED</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7111</CodigoConvenio>
+      <NomeConvenio>JCAMARGO SAUDE E VANTAGENS</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8481</CodigoConvenio>
+      <NomeConvenio>JDE</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7358</CodigoConvenio>
+      <NomeConvenio>KANGU</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8476</CodigoConvenio>
+      <NomeConvenio>KANTAR IBOPE MEDIA</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>6773</CodigoConvenio>
+      <NomeConvenio>KEYD CLUB</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7873</CodigoConvenio>
+      <NomeConvenio>KOMPLETO</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8561</CodigoConvenio>
+      <NomeConvenio>KORSA SEGUROS</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>6780</CodigoConvenio>
+      <NomeConvenio>KV VANTAGENS</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8157</CodigoConvenio>
+      <NomeConvenio>LA RED</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8409</CodigoConvenio>
+      <NomeConvenio>LABORATORIO JOÃO PAULO</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8477</CodigoConvenio>
+      <NomeConvenio>LANXESS</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>6975</CodigoConvenio>
+      <NomeConvenio>LAREDO SOBRAL</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8144</CodigoConvenio>
+      <NomeConvenio>LEBES</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7921</CodigoConvenio>
+      <NomeConvenio>LEITURA EDUCA</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5550</CodigoConvenio>
+      <NomeConvenio>LIDERY</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7610</CodigoConvenio>
+      <NomeConvenio>LIF SAUDE</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8086</CodigoConvenio>
+      <NomeConvenio>LIFE CARD ASSIST</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7920</CodigoConvenio>
+      <NomeConvenio>LIVE SAUDE FARMACIA</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8483</CodigoConvenio>
+      <NomeConvenio>LOCALIZA </NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5284</CodigoConvenio>
+      <NomeConvenio>LOJAS MARISA</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8450</CodigoConvenio>
+      <NomeConvenio>LOREAL</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>6638</CodigoConvenio>
+      <NomeConvenio>MAG SEGUROS</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7504</CodigoConvenio>
+      <NomeConvenio>MAG VG - BEM ESTAR</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8546</CodigoConvenio>
+      <NomeConvenio>MAGALU</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>6686</CodigoConvenio>
+      <NomeConvenio>MAIS VALOR</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5412</CodigoConvenio>
+      <NomeConvenio>MAIS VB</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5043</CodigoConvenio>
+      <NomeConvenio>MAIS VIDA</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8419</CodigoConvenio>
+      <NomeConvenio>MAIS VIDA LITORAL</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7829</CodigoConvenio>
+      <NomeConvenio>MAP SENIOR</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5288</CodigoConvenio>
+      <NomeConvenio>MAPFRE</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7599</CodigoConvenio>
+      <NomeConvenio>MAPFRE MIA AGRO</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5482</CodigoConvenio>
+      <NomeConvenio>MAPFRE SEGUROS</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8452</CodigoConvenio>
+      <NomeConvenio>MAPFRE TOPMED</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7883</CodigoConvenio>
+      <NomeConvenio>MAPFRE VIDA</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8451</CodigoConvenio>
+      <NomeConvenio>MARSH</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8498</CodigoConvenio>
+      <NomeConvenio>MASSAGENS PREMIO</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8057</CodigoConvenio>
+      <NomeConvenio>MAX SALES</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>162</CodigoConvenio>
+      <NomeConvenio>MBM</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5398</CodigoConvenio>
+      <NomeConvenio>MBM PSICOLOGICO</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>6424</CodigoConvenio>
+      <NomeConvenio>MEDBEM</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>6778</CodigoConvenio>
+      <NomeConvenio>MEDICINA OCUPACIONAL VALE</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8413</CodigoConvenio>
+      <NomeConvenio>MEDICO AMIGO</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8077</CodigoConvenio>
+      <NomeConvenio>MEDIK</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8102</CodigoConvenio>
+      <NomeConvenio>MEDIQUO</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5488</CodigoConvenio>
+      <NomeConvenio>MEDSEMPRE</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8505</CodigoConvenio>
+      <NomeConvenio>MEDWEB</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8200</CodigoConvenio>
+      <NomeConvenio>MEGA</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>6753</CodigoConvenio>
+      <NomeConvenio>MEU DESCONTO PRIME</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5562</CodigoConvenio>
+      <NomeConvenio>MONGERAL </NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8260</CodigoConvenio>
+      <NomeConvenio>MONGERAL SEGUROS</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8454</CodigoConvenio>
+      <NomeConvenio>MSD TOPMED</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>6751</CodigoConvenio>
+      <NomeConvenio>MULT BENEFICIOS</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7619</CodigoConvenio>
+      <NomeConvenio>MULT ECONOMIC</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7878</CodigoConvenio>
+      <NomeConvenio>MVP - PRODUTO PBM</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8425</CodigoConvenio>
+      <NomeConvenio>MYBE I</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8338</CodigoConvenio>
+      <NomeConvenio>MYBE II</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8501</CodigoConvenio>
+      <NomeConvenio>NEON</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5470</CodigoConvenio>
+      <NomeConvenio>NETPOINTS CHUBB</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8455</CodigoConvenio>
+      <NomeConvenio>NOKIA</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5483</CodigoConvenio>
+      <NomeConvenio>NULL_TICKET BENEFICIOS</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>6695</CodigoConvenio>
+      <NomeConvenio>ON VIDA+</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8417</CodigoConvenio>
+      <NomeConvenio>ORIUM</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8161</CodigoConvenio>
+      <NomeConvenio>OUROPREV</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8456</CodigoConvenio>
+      <NomeConvenio>OXITENO</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8196</CodigoConvenio>
+      <NomeConvenio>PAGUE ON</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5456</CodigoConvenio>
+      <NomeConvenio>PAQUETA</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7253</CodigoConvenio>
+      <NomeConvenio>PAQUETA ESPORTES</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8058</CodigoConvenio>
+      <NomeConvenio>PASI PAGUE MENOS</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7176</CodigoConvenio>
+      <NomeConvenio>PASI PBM</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8339</CodigoConvenio>
+      <NomeConvenio>PERSONAL CARD</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7738</CodigoConvenio>
+      <NomeConvenio>PHILIPS MEDICAL SYSTEMS</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8418</CodigoConvenio>
+      <NomeConvenio>PHOENIX MEMORIAL</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>6705</CodigoConvenio>
+      <NomeConvenio>PLURICLUB</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5327</CodigoConvenio>
+      <NomeConvenio>PORTOSEG - MELHOR IDADE</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5328</CodigoConvenio>
+      <NomeConvenio>PORTOSEG-PROTECAO ESPECIAL</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>6776</CodigoConvenio>
+      <NomeConvenio>PREVER COLABORADOR</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7919</CodigoConvenio>
+      <NomeConvenio>PREVIDA CORRETORA</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>6942</CodigoConvenio>
+      <NomeConvenio>PREVISUL OVS</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8261</CodigoConvenio>
+      <NomeConvenio>PROSEG</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8416</CodigoConvenio>
+      <NomeConvenio>PROSERVNET</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8281</CodigoConvenio>
+      <NomeConvenio>PROSPERA SAUDE</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>6415</CodigoConvenio>
+      <NomeConvenio>PROTESTE</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8484</CodigoConvenio>
+      <NomeConvenio>PROVIDA</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8514</CodigoConvenio>
+      <NomeConvenio>PRUDENTIAL</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8515</CodigoConvenio>
+      <NomeConvenio>PRUDENTIAL VG</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7811</CodigoConvenio>
+      <NomeConvenio>PRUEMVIDA</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8343</CodigoConvenio>
+      <NomeConvenio>QERY SAUDE</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5108</CodigoConvenio>
+      <NomeConvenio>QUERO-QUERO</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5032</CodigoConvenio>
+      <NomeConvenio>RANBAXY COM VOCE</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8230</CodigoConvenio>
+      <NomeConvenio>REDE ASSIST 24H</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5469</CodigoConvenio>
+      <NomeConvenio>REDE MAIS SAUDE</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>6375</CodigoConvenio>
+      <NomeConvenio>RIACHUELO - CONTA PAGA</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5567</CodigoConvenio>
+      <NomeConvenio>RIO GRANDE SEGUROS</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>6746</CodigoConvenio>
+      <NomeConvenio>ROMA SERVICE</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8457</CodigoConvenio>
+      <NomeConvenio>SADA</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8378</CodigoConvenio>
+      <NomeConvenio>SAMS CLUB</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8458</CodigoConvenio>
+      <NomeConvenio>SAMSUNG TOPMED</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5466</CodigoConvenio>
+      <NomeConvenio>SANCOR</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8437</CodigoConvenio>
+      <NomeConvenio>SANCOR FARMA ASSIST</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8459</CodigoConvenio>
+      <NomeConvenio>SANOFI</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8397</CodigoConvenio>
+      <NomeConvenio>SANTA MED</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8033</CodigoConvenio>
+      <NomeConvenio>SANTANDER ZURICH</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8422</CodigoConvenio>
+      <NomeConvenio>SAUDE BRASIL 24H</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7550</CodigoConvenio>
+      <NomeConvenio>SAUDE DA GENTE</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7528</CodigoConvenio>
+      <NomeConvenio>SAUDE E VIDA CLUB</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7164</CodigoConvenio>
+      <NomeConvenio>SAUDE ID</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8411</CodigoConvenio>
+      <NomeConvenio>SAUDE MAIS SEGURA</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7749</CodigoConvenio>
+      <NomeConvenio>SCANIA</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5347</CodigoConvenio>
+      <NomeConvenio>SEGUROS UNIMED</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8403</CodigoConvenio>
+      <NomeConvenio>SICOOB </NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8534</CodigoConvenio>
+      <NomeConvenio>SIMPLE 2U</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7743</CodigoConvenio>
+      <NomeConvenio>SIMPLI CARE</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>6969</CodigoConvenio>
+      <NomeConvenio>SINAF</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8427</CodigoConvenio>
+      <NomeConvenio>SINCARD BANK I</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8478</CodigoConvenio>
+      <NomeConvenio>SINGLE CARE</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>6667</CodigoConvenio>
+      <NomeConvenio>SOCIELA</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7850</CodigoConvenio>
+      <NomeConvenio>SODEXO - EPHARMA</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8139</CodigoConvenio>
+      <NomeConvenio>SOMAR CLUB</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8308</CodigoConvenio>
+      <NomeConvenio>SOMAR MAIS SAUDE</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8499</CodigoConvenio>
+      <NomeConvenio>SORRISO FACIL FRANQUIAS</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8158</CodigoConvenio>
+      <NomeConvenio>STAR PROTECAO</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>6743</CodigoConvenio>
+      <NomeConvenio>START</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7631</CodigoConvenio>
+      <NomeConvenio>STORY BANK_CARTAO I</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8389</CodigoConvenio>
+      <NomeConvenio>SUDASEG SEGURADORA</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7082</CodigoConvenio>
+      <NomeConvenio>SULAMERICA</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8513</CodigoConvenio>
+      <NomeConvenio>SUPERBAC</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8460</CodigoConvenio>
+      <NomeConvenio>SUPERGASBRAS</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8491</CodigoConvenio>
+      <NomeConvenio>SUPERMERCADO FORTE</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8438</CodigoConvenio>
+      <NomeConvenio>SYSPAY BANK I</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8439</CodigoConvenio>
+      <NomeConvenio>SYSPAY BANK II</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5198</CodigoConvenio>
+      <NomeConvenio>S1 CLUBE</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8420</CodigoConvenio>
+      <NomeConvenio>TAMBOSI</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7101</CodigoConvenio>
+      <NomeConvenio>TELADOC</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7102</CodigoConvenio>
+      <NomeConvenio>TELA-DOC FREE</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5499</CodigoConvenio>
+      <NomeConvenio>TELAMED</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8256</CodigoConvenio>
+      <NomeConvenio>TEMPO APOBEM</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5505</CodigoConvenio>
+      <NomeConvenio>TEMPO CORPORATIVO</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8410</CodigoConvenio>
+      <NomeConvenio>TESS</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7893</CodigoConvenio>
+      <NomeConvenio>TESTE TI - AUTHORIZER</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8349</CodigoConvenio>
+      <NomeConvenio>TICKET BENEFICIO</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8350</CodigoConvenio>
+      <NomeConvenio>TICKET MEDICAMENTOS</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8351</CodigoConvenio>
+      <NomeConvenio>TICKET RECEITA</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8461</CodigoConvenio>
+      <NomeConvenio>TIGRE</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8462</CodigoConvenio>
+      <NomeConvenio>TIVIT</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8430</CodigoConvenio>
+      <NomeConvenio>TNT BANK II</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>248</CodigoConvenio>
+      <NomeConvenio>TOKIO MARINE</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8031</CodigoConvenio>
+      <NomeConvenio>TOO</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5302</CodigoConvenio>
+      <NomeConvenio>TOO SEGUROS</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8479</CodigoConvenio>
+      <NomeConvenio>TOP MAIS BENEFICIOS</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8387</CodigoConvenio>
+      <NomeConvenio>TOPMED</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7734</CodigoConvenio>
+      <NomeConvenio>TORCETEX</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5563</CodigoConvenio>
+      <NomeConvenio>TRAIL</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5509</CodigoConvenio>
+      <NomeConvenio>TROCA 100% COLGATE</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8399</CodigoConvenio>
+      <NomeConvenio>TUDO CARD</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7373</CodigoConvenio>
+      <NomeConvenio>TUDO CARD BENEFICIOS</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7379</CodigoConvenio>
+      <NomeConvenio>UIB ROL ANS</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8482</CodigoConvenio>
+      <NomeConvenio>UNAFISCO SAUDE</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8395</CodigoConvenio>
+      <NomeConvenio>UNIAO SEGURADORA</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>6749</CodigoConvenio>
+      <NomeConvenio>UNICK CARD</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8405</CodigoConvenio>
+      <NomeConvenio>UNIFIQUE TELEMEDICINA</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>86</CodigoConvenio>
+      <NomeConvenio>UNIMED</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7870</CodigoConvenio>
+      <NomeConvenio>UNIMED ODONTO</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>256</CodigoConvenio>
+      <NomeConvenio>UNIMED SEGUROS</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7368</CodigoConvenio>
+      <NomeConvenio>UNIMED SEGUROS FARMA</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7367</CodigoConvenio>
+      <NomeConvenio>UNIMED SEGUROS PET</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5114</CodigoConvenio>
+      <NomeConvenio>UNIMED VITORIA</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8447</CodigoConvenio>
+      <NomeConvenio>UNIMED VOUCHER</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8183</CodigoConvenio>
+      <NomeConvenio>USA BANK I</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8414</CodigoConvenio>
+      <NomeConvenio>USINA CERRADINHO</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>6755</CodigoConvenio>
+      <NomeConvenio>UTIL MAIS</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5671</CodigoConvenio>
+      <NomeConvenio>VALE</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8504</CodigoConvenio>
+      <NomeConvenio>VALE MAIS MED</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8392</CodigoConvenio>
+      <NomeConvenio>VALORIZAR MAIS SAUDE</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8415</CodigoConvenio>
+      <NomeConvenio>VIACREDI</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8269</CodigoConvenio>
+      <NomeConvenio>VIDA E SAUDE</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8317</CodigoConvenio>
+      <NomeConvenio>VIDA PLENA</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5528</CodigoConvenio>
+      <NomeConvenio>VIDA 24H</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5769</CodigoConvenio>
+      <NomeConvenio>VILEVE</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7125</CodigoConvenio>
+      <NomeConvenio>VIP CLUBE DE DESCONTOS</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8480</CodigoConvenio>
+      <NomeConvenio>VISION CARD</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8091</CodigoConvenio>
+      <NomeConvenio>VITTA</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7731</CodigoConvenio>
+      <NomeConvenio>VIVA BEM COM PKU</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>6772</CodigoConvenio>
+      <NomeConvenio>VIVA FACIL</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8463</CodigoConvenio>
+      <NomeConvenio>VIVARA</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7014</CodigoConvenio>
+      <NomeConvenio>VIVENDO MPS</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8435</CodigoConvenio>
+      <NomeConvenio>VORTEX SAUDE</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5531</CodigoConvenio>
+      <NomeConvenio>VOSS</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>6745</CodigoConvenio>
+      <NomeConvenio>VOXCRED</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5554</CodigoConvenio>
+      <NomeConvenio>VR SAUDE</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>6752</CodigoConvenio>
+      <NomeConvenio>WA CLUBE DE DESCONTOS</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8159</CodigoConvenio>
+      <NomeConvenio>WAY UP BRASIL</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>6887</CodigoConvenio>
+      <NomeConvenio>WINSOCIAL</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>6378</CodigoConvenio>
+      <NomeConvenio>YEX</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7768</CodigoConvenio>
+      <NomeConvenio>YOU BANK_CARTAO I</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8398</CodigoConvenio>
+      <NomeConvenio>YOU GO - CARE SAUDE</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5371</CodigoConvenio>
+      <NomeConvenio>YOUSE FARMACIA</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8051</CodigoConvenio>
+      <NomeConvenio>ZAPYMED</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7507</CodigoConvenio>
+      <NomeConvenio>ZMVG - DISCOUNT</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7508</CodigoConvenio>
+      <NomeConvenio>ZMVG - DM 35%</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7509</CodigoConvenio>
+      <NomeConvenio>ZMVG - DM 50%</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7510</CodigoConvenio>
+      <NomeConvenio>ZMVG - DM 70</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>7511</CodigoConvenio>
+      <NomeConvenio>ZMVG - DM 90%</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8391</CodigoConvenio>
+      <NomeConvenio>ZOLDSAUDE 24HORAS</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8562</CodigoConvenio>
+      <NomeConvenio>Z_TOKIO MARINE</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8426</CodigoConvenio>
+      <NomeConvenio>ZURI BANK I</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5308</CodigoConvenio>
+      <NomeConvenio>ZURICH LIFE</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>5243</CodigoConvenio>
+      <NomeConvenio>ZURICH SANTANDER</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>6782</CodigoConvenio>
+      <NomeConvenio>ZZZZDR. ZAP</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8523</CodigoConvenio>
+      <NomeConvenio>1NO SAUDE</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>8401</CodigoConvenio>
+      <NomeConvenio>24 HORAS GESTAO E SAUDE NACIONAL</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+    <Convenio>
+      <CodigoConvenio>6893</CodigoConvenio>
+      <NomeConvenio>3VS</NomeConvenio>
+      <TipoConvenio>1</TipoConvenio>
+      <TipoReceita>1</TipoReceita>
+      <TipoTabelaPreco>9</TipoTabelaPreco>
+    </Convenio>
+  </Convenios>
+  <CodigoFarmacia>7987887</CodigoFarmacia>
+  <CodigoRede>1084628</CodigoRede>
+  <FtpHost>7pawX6O528z/6mIq3L8kbC9NhCyV74hHhvH8UC2BNdI=</FtpHost>
+  <FtpDirectory>F26v+5oHkLVZt5QEVyjACA==</FtpDirectory>
+  <FtpUser>wpl8soAtG3wreZmu0wtFSA==</FtpUser>
+  <FtpPassword>GnbSokj95J3s1L2nFPrSNA==</FtpPassword>
+  <Motivos>
+    <Motivo>
+      <Codigo>AT</Codigo>
+      <Descricao>Necessario Analise Tecnica</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>A1</Codigo>
+      <Descricao>Cartao nao cadastrado invalido</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>A2</Codigo>
+      <Descricao>Cliente invalido ou inativo</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>A3</Codigo>
+      <Descricao>Plano nao cadastrado ou invalido</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>A4</Codigo>
+      <Descricao>Rede invalida ou inativa</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>A5</Codigo>
+      <Descricao>Loja invalida ou inativa</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>A6</Codigo>
+      <Descricao>Beneficio nao associado a loja</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>A7</Codigo>
+      <Descricao>Erro ao consultar formulario</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>A8</Codigo>
+      <Descricao>Quantidade livre nao autorizada</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>A9</Codigo>
+      <Descricao>Quantidade prescricao nao autorizada</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>BL</Codigo>
+      <Descricao>Lj. nao autorizada p/ o prod</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>B1</Codigo>
+      <Descricao>Quantidade periodo nao autorizada</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>B2</Codigo>
+      <Descricao>Quantidade nao autorizada</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>B3</Codigo>
+      <Descricao>Erro ao consultar preco base</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>B4</Codigo>
+      <Descricao>Erro ao definir preco base</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>B5</Codigo>
+      <Descricao>Erro ao validar preco base</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>B6</Codigo>
+      <Descricao>Erro ao consultar valor industria</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>B7</Codigo>
+      <Descricao>Erro ao aplicar desconto</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>B8</Codigo>
+      <Descricao>Erro ao definir preco do produto</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>B9</Codigo>
+      <Descricao>Erro ao validar preco do produto</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>CA</Codigo>
+      <Descricao>Cartao nao cadastrado invalido</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>CE</Codigo>
+      <Descricao>Cartao expirado</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>CR</Codigo>
+      <Descricao>VERIFIQUE QUANTIDADE DO COMBO</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>C1</Codigo>
+      <Descricao>Erro ao definir condicao pagamento</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>C2</Codigo>
+      <Descricao>Erro ao validar percentual pagamento</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>C3</Codigo>
+      <Descricao>Erro ao aplicar condicao pagamento</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>C4</Codigo>
+      <Descricao>Erro ao validar condicao pagamento</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>DL</Codigo>
+      <Descricao>Dados Invalidos ou Inexistente</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>EA</Codigo>
+      <Descricao>ERRO AO AUTORIZAR</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>EC</Codigo>
+      <Descricao>Erro Calcular Subsidio</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>EE</Codigo>
+      <Descricao>EAN Expirado</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>IB</Codigo>
+      <Descricao>Item Bloqueado ligue 0800 777 9094</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>LE</Codigo>
+      <Descricao>Necessario Liberacao Especial</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>LM</Codigo>
+      <Descricao>Valor excede limite do periodo</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>LP</Codigo>
+      <Descricao>PEDIR P LIGAR 08002872267 OPC5</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>MP</Codigo>
+      <Descricao>Desconto produto menor preco</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>NA</Codigo>
+      <Descricao>Nao Medic. S/ Preco ou Nao Aut</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>NB</Codigo>
+      <Descricao>Produto Nao Bonificado</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>NF</Codigo>
+      <Descricao>Falha na leitura do Formulario</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>NI</Codigo>
+      <Descricao>BENEFICIO NAO INICIADO</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>NM</Codigo>
+      <Descricao>Nao Medic. Nao liberado L A</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>NP</Codigo>
+      <Descricao>Medic. Nao Faz Parte do Plano</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>OS</Codigo>
+      <Descricao>Sem Resposta do provedor</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>OT</Codigo>
+      <Descricao>OTC Nao Liberado para a L A</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>PC</Codigo>
+      <Descricao>Prod. S/ Classe da Petrobras </Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>PE</Codigo>
+      <Descricao>Plano Expirado</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>PI</Codigo>
+      <Descricao>Prescritor Invalido</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>PJ</Codigo>
+      <Descricao>Produto ja Resgatado</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>PN</Codigo>
+      <Descricao>PRE-AUTORIZACAO NAO REALIZADA</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>PR</Codigo>
+      <Descricao>Venda Prescr. Nao Lib para L A</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>P2</Codigo>
+      <Descricao>Permitido somente compra de 2</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>P3</Codigo>
+      <Descricao>Permitido somente compra de 3</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>P4</Codigo>
+      <Descricao>3 frascos pelo preco de 2</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>P5</Codigo>
+      <Descricao>Limite do Combo Excedido</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>P6</Codigo>
+      <Descricao>Combo Obrigatorio</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>QA</Codigo>
+      <Descricao>Qtd Max. por Autorizacao</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>QB</Codigo>
+      <Descricao>Quantidade Nao Bonificada</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>QC</Codigo>
+      <Descricao>Limite Classe Terap. Excedido</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>QO</Codigo>
+      <Descricao>Quantidade obrigatoria</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>QP</Codigo>
+      <Descricao>Exc Qtd no Periodo Autorizacao</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>QR</Codigo>
+      <Descricao>Qtd. Maxima do item Excedida</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>QU</Codigo>
+      <Descricao>Exc Qtd Periodo Autorizacoes</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>Q1</Codigo>
+      <Descricao>Quantidade ultrapassada no Mes</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>Q2</Codigo>
+      <Descricao>Quantidade ultrapassada no ano</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>RE</Codigo>
+      <Descricao>Venda Retencao Nao Liberad L A</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>RI</Codigo>
+      <Descricao>Restricao Desconto Progressivo</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>RO</Codigo>
+      <Descricao>Receita Obrigatorio</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>RX</Codigo>
+      <Descricao>N/A AMS-PETRO ORIENTE LIGAR NO</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>SA</Codigo>
+      <Descricao>Paciente sem adesao ao produto</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>SI</Codigo>
+      <Descricao>Somente Compra Individual</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>SP</Codigo>
+      <Descricao>Produto sem promocao</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>SR</Codigo>
+      <Descricao>Petrobras S/ Perc. de Subsidio</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>ST</Codigo>
+      <Descricao>Sem Aceite Termo Adesao ao Programa</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>TC</Codigo>
+      <Descricao>Campos da requisicao invalidos</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>TE</Codigo>
+      <Descricao>Cartao nao encontrado</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>TF</Codigo>
+      <Descricao>Sem reposta da Ticket</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>TL</Codigo>
+      <Descricao>Loja nao autorizada</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>TN</Codigo>
+      <Descricao>Nao autorizado</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>TO</Codigo>
+      <Descricao>processo de integracao incompleto</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>TR</Codigo>
+      <Descricao>Requisicao pre-autorizacao invalida</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>TS</Codigo>
+      <Descricao>Saldo insuficiente</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>TU</Codigo>
+      <Descricao>Usuario nao encontrado para o CPF</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>VR</Codigo>
+      <Descricao>Validade da Receita</Descricao>
+    </Motivo>
+    <Motivo>
+      <Codigo>VU</Codigo>
+      <Descricao>Programa de Venda Unica</Descricao>
+    </Motivo>
+  </Motivos>
+  <LoginCnpj>false</LoginCnpj>
+</PluginParameters>
